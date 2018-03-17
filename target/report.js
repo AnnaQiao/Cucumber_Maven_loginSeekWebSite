@@ -43,7 +43,7 @@ formatter.match({
   "location": "loginStepDefinition.user_am_on_CSDN_login_page()"
 });
 formatter.result({
-  "duration": 28155639287,
+  "duration": 16837004056,
   "status": "passed"
 });
 formatter.match({
@@ -56,7 +56,7 @@ formatter.match({
   "location": "loginStepDefinition.user_enter_username_as(String)"
 });
 formatter.result({
-  "duration": 2014028269,
+  "duration": 2414752642,
   "status": "passed"
 });
 formatter.match({
@@ -69,21 +69,21 @@ formatter.match({
   "location": "loginStepDefinition.user_enter_password_as(String)"
 });
 formatter.result({
-  "duration": 676706421,
+  "duration": 546809549,
   "status": "passed"
 });
 formatter.match({
   "location": "loginStepDefinition.user_clicks_on_login_button()"
 });
 formatter.result({
-  "duration": 498383576,
+  "duration": 469965648,
   "status": "passed"
 });
 formatter.match({
   "location": "loginStepDefinition.user_is_on_home_page()"
 });
 formatter.result({
-  "duration": 7654626991,
+  "duration": 10395383839,
   "status": "passed"
 });
 });

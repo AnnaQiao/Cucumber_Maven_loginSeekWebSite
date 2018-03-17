@@ -46,6 +46,7 @@ public class loginStepDefinition {
 		try {
 			Thread.sleep(1000);
 			String actureRST = driver.getTitle();
+			Thread.sleep(5000);
 			Assert.assertEquals("Jobs on SEEK - New Zealand's no. 1 Employment, Career and Recruitment site", actureRST);
 			
 		} catch (InterruptedException e) {

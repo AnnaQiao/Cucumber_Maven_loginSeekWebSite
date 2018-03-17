@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "succesful login the seek",
+        "description": "",
+        "id": "login;succesful-login-the-seek",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16837004056,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user am on seek login page",
+            "match": {
+              "location": "loginStepDefinition.user_am_on_CSDN_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2414752642,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enter username as \"18220174098\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "18220174098",
+                  "offset": 24
+                }
+              ],
+              "location": "loginStepDefinition.user_enter_username_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 546809549,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter password as \"Qiao1234!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Qiao1234!",
+                  "offset": 24
+                }
+              ],
+              "location": "loginStepDefinition.user_enter_password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 469965648,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on login button.",
+            "match": {
+              "location": "loginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10395383839,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user  is on  home page.",
+            "match": {
+              "location": "loginStepDefinition.user_is_on_home_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]

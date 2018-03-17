@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features="C:/automation test/CucumberTest/src/test/java/Features"
 		,glue= {"stepDefinitions"},
-		format = {"pretty","html:target"}
+		format = {"pretty","html:target","json:test-output/cucuberReport.json"}
 		)
 
 public class TestRunner {
