@@ -51,8 +51,8 @@
 		  </dependency>
   </dependencies>
   
-  ### TEST Cases
-  
+  ### testCases
+
  ![](https://github.com/AnnaQiao/Cucumber-Maven_SeekAutomation/blob/master/picture/feature.png)
 	    
  ### stepDefinition
