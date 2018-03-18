@@ -70,7 +70,7 @@
     
 ![](https://github.com/AnnaQiao/Cucumber-Maven_SeekAutomation/blob/master/picture/stepDefiniation.png)
 
-![](https://github.com/AnnaQiao/Cucumber-Maven_SeekAutomation/blob/master/picture/stepDefiniation1.png)
+![](https://github.com/AnnaQiao/Cucumber-Maven_SeekAutomation/blob/master/picture/stepDefiniation2.png)
 	
 ### TestRunner
   package Runner;
