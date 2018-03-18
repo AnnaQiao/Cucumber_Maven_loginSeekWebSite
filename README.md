@@ -52,7 +52,7 @@
   </dependencies>
   
   ### TEST Cases
-  
+
  ![](https://github.com/AnnaQiao/Cucumber-Maven_SeekAutomation/blob/master/picture/feature.png)
 	    
  ### stepDefinition
