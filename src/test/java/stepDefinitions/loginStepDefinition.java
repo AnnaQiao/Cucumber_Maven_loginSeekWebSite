@@ -1,5 +1,5 @@
 package stepDefinitions;
-
+ //Author: Anna Qiao
 import static org.junit.Assert.assertEquals;
 
 import org.openqa.selenium.By;
