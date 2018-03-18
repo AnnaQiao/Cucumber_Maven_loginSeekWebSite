@@ -65,23 +65,8 @@
             And  user enter vaild password 
             Then user clicks on login button
             And  user is on  home page
+	    
 ### test script (stepdefinition)
-
-      package stepDefinitions;
- //Author: Anna Qiao
-import static org.junit.Assert.assertEquals;
-
-import org.openqa.selenium.By;
-//import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-//import org.openqa.selenium.WebElement;
-//import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
-import junit.framework.Assert;
 
 public class loginStepDefinition {
 	WebDriver driver;
@@ -185,3 +170,63 @@ public class loginStepDefinition {
   }
 ### test report
      
+ "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "regist an account of seek",
+        "description": "",
+        "id": "login;regist-an-account-of-seek",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16654251154,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user am on seek register page",
+            "match": {
+              "location": "loginStepDefinition.user_am_on_seek_register_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3217686376,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user input First name and last name",
+            "match": {
+              "location": "loginStepDefinition.user_input_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 872226380,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user input Email address and password",
+            "match": {
+              "location": "loginStepDefinition.user_input_email_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12544176295,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click Register button",
+            "match": {
+              "location": "loginStepDefinition.user_click_register_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
