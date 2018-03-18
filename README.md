@@ -50,17 +50,14 @@
 		 <version>2.8.0</version>
 		  </dependency>
   </dependencies>
-  
-  ### testCases
-
- ![](https://github.com/AnnaQiao/Cucumber-Maven_SeekAutomation/blob/master/picture/feature.png)
+  
 	    
- ### stepDefinition
-    
+ ### Feature
+ ![](https://github.com/AnnaQiao/Cucumber-Maven_SeekAutomation/blob/master/picture/feature.png)
+ ### StepDefiniation
 ![](https://github.com/AnnaQiao/Cucumber-Maven_SeekAutomation/blob/master/picture/stepDefiniation.png)
-
 ![](https://github.com/AnnaQiao/Cucumber-Maven_SeekAutomation/blob/master/picture/stepDefiniation2.png)
-	
+
 ### TestRunner
   package Runner;
 
