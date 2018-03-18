@@ -3,68 +3,114 @@
     "line": 1,
     "elements": [
       {
-        "line": 2,
-        "name": "succesful login the seek",
+        "line": 3,
+        "name": "regist an account of seek",
         "description": "",
-        "id": "login;succesful-login-the-seek",
+        "id": "login;regist-an-account-of-seek",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 16837004056,
+              "duration": 16654251154,
               "status": "passed"
             },
-            "line": 3,
-            "name": "user am on seek login page",
+            "line": 4,
+            "name": "user am on seek register page",
             "match": {
-              "location": "loginStepDefinition.user_am_on_CSDN_login_page()"
+              "location": "loginStepDefinition.user_am_on_seek_register_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2414752642,
+              "duration": 3217686376,
               "status": "passed"
             },
-            "line": 4,
-            "name": "user enter username as \"18220174098\"",
+            "line": 5,
+            "name": "user input First name and last name",
             "match": {
-              "arguments": [
-                {
-                  "val": "18220174098",
-                  "offset": 24
-                }
-              ],
-              "location": "loginStepDefinition.user_enter_username_as(String)"
+              "location": "loginStepDefinition.user_input_username()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 546809549,
+              "duration": 872226380,
               "status": "passed"
             },
-            "line": 5,
-            "name": "user enter password as \"Qiao1234!\"",
+            "line": 6,
+            "name": "user input Email address and password",
             "match": {
-              "arguments": [
-                {
-                  "val": "Qiao1234!",
-                  "offset": 24
-                }
-              ],
-              "location": "loginStepDefinition.user_enter_password_as(String)"
+              "location": "loginStepDefinition.user_input_email_password()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 469965648,
+              "duration": 12544176295,
               "status": "passed"
             },
-            "line": 6,
-            "name": "user clicks on login button.",
+            "line": 7,
+            "name": "user click Register button",
+            "match": {
+              "location": "loginStepDefinition.user_click_register_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "log in seek success",
+        "description": "",
+        "id": "login;log-in-seek-success",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11573167011,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user am on seek login page",
+            "match": {
+              "location": "loginStepDefinition.user_am_on_seek_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2960697151,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enter vaild username",
+            "match": {
+              "location": "loginStepDefinition.user_enter_valid_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 688251246,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enter vaild password",
+            "match": {
+              "location": "loginStepDefinition.user_enter_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 337066735,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks on login button",
             "match": {
               "location": "loginStepDefinition.user_clicks_on_login_button()"
             },
@@ -72,11 +118,11 @@
           },
           {
             "result": {
-              "duration": 10395383839,
+              "duration": 11907897648,
               "status": "passed"
             },
-            "line": 7,
-            "name": "user  is on  home page.",
+            "line": 14,
+            "name": "user is on  home page",
             "match": {
               "location": "loginStepDefinition.user_is_on_home_page()"
             },
