@@ -51,7 +51,7 @@
 		  </dependency>
   </dependencies>
   
-  ### Test Cases
+  ### testCases
 
  ![](https://github.com/AnnaQiao/Cucumber-Maven_SeekAutomation/blob/master/picture/feature.png)
 	    
