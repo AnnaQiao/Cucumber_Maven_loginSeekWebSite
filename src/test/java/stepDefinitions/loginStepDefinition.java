@@ -9,21 +9,37 @@ import org.openqa.selenium.WebDriver;
 //import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import junit.framework.Assert;
 
 public class loginStepDefinition {
 	WebDriver driver;
 	/**
 	 * regist an account of seek
 	 */
+	@Before()
+	public void setup()
+	{
+		
+		System.out.println("setup..........");
+		System.setProperty("webdriver.firefox.marionette", "C:/geckodriver.exe");
+		driver = new FirefoxDriver();
+	}
+	
+	@After()
+	public void teardown()
+	{
+		System.out.println("teardown..........");
+		driver.quit();
+	}
+	
 	@Given("^user am on seek register page$")
 	public void user_am_on_seek_register_page()
 	{
-		System.setProperty("webdriver.firefox.marionette", "C:/geckodriver.exe");
-		driver = new FirefoxDriver();
+		
 		driver.get("https://www.seek.co.nz/sign-up?returnUrl=https%3A%2F%2Fwww.seek.co.nz%2F");
 		
 	}
@@ -41,14 +57,14 @@ public class loginStepDefinition {
 		driver.findElement(By.id("password")).sendKeys("peng1234");
 	}
 	@Then("^user click Register button$")
-	public void user_click_register_button() throws InterruptedException
+	public void user_click_register_button() 
 	{
-		driver.findElement(By.xpath("//button[@data-automation='signup-submit']")).click();	
-		Thread.sleep(10000);
-		String acture = driver.getTitle();
+		driver.findElement(By.xpath("//button[@type='submit']")).click();	
+		String acture=driver.findElement(By.className("__STYLE_GUIDE__Critical__root___3WT12_1")).getText();
 		System.out.println(acture);
-		assertEquals("Almost done - SEEK", acture);
-		driver.quit();
+		assertEquals("You can't register with an email already in use. Please sign in or use a different email", acture);
+		
+		
 	}
 	
 	/**
@@ -56,8 +72,7 @@ public class loginStepDefinition {
 	 */
 	@Given("^user am on seek login page$")
 	public void user_am_on_seek_login_page()  {
-		System.setProperty("webdriver.firefox.marionette", "C:/geckodriver.exe");
-		driver = new FirefoxDriver();
+	
 		driver.get("https://www.seek.co.nz/sign-in?returnUrl=https%3A%2F%2Fwww.seek.co.nz%2F");
 	    
 	}
@@ -85,13 +100,11 @@ public class loginStepDefinition {
 			Thread.sleep(10000);
 			String actureRST = driver.getTitle();
 			assertEquals("Jobs on SEEK - New Zealand's no. 1 Employment, Career and Recruitment site", actureRST);
-			driver.quit();
+		
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		};
-		//Assert.assertEquals("Jobs on SEEK - New Zealand's no. 1 Employment, Career and Recruitment site", actureRST);
-		driver.quit();
 		
 	}
 

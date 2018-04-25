@@ -3,16 +3,38 @@
     "line": 1,
     "elements": [
       {
+        "before": [
+          {
+            "result": {
+              "duration": 12484718552,
+              "status": "passed"
+            },
+            "match": {
+              "location": "loginStepDefinition.setup()"
+            }
+          }
+        ],
         "line": 3,
         "name": "regist an account of seek",
         "description": "",
         "id": "login;regist-an-account-of-seek",
+        "after": [
+          {
+            "result": {
+              "duration": 1029706922,
+              "status": "passed"
+            },
+            "match": {
+              "location": "loginStepDefinition.teardown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 16654251154,
+              "duration": 7766043784,
               "status": "passed"
             },
             "line": 4,
@@ -24,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 3217686376,
+              "duration": 2011272296,
               "status": "passed"
             },
             "line": 5,
@@ -36,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 872226380,
+              "duration": 1015355077,
               "status": "passed"
             },
             "line": 6,
@@ -48,7 +70,7 @@
           },
           {
             "result": {
-              "duration": 12544176295,
+              "duration": 976247149,
               "status": "passed"
             },
             "line": 7,
@@ -61,16 +83,38 @@
         ]
       },
       {
+        "before": [
+          {
+            "result": {
+              "duration": 10106906329,
+              "status": "passed"
+            },
+            "match": {
+              "location": "loginStepDefinition.setup()"
+            }
+          }
+        ],
         "line": 9,
         "name": "log in seek success",
         "description": "",
         "id": "login;log-in-seek-success",
+        "after": [
+          {
+            "result": {
+              "duration": 1022856097,
+              "status": "passed"
+            },
+            "match": {
+              "location": "loginStepDefinition.teardown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 11573167011,
+              "duration": 7107152513,
               "status": "passed"
             },
             "line": 10,
@@ -82,7 +126,7 @@
           },
           {
             "result": {
-              "duration": 2960697151,
+              "duration": 1954105058,
               "status": "passed"
             },
             "line": 11,
@@ -94,7 +138,7 @@
           },
           {
             "result": {
-              "duration": 688251246,
+              "duration": 453952138,
               "status": "passed"
             },
             "line": 12,
@@ -106,7 +150,7 @@
           },
           {
             "result": {
-              "duration": 337066735,
+              "duration": 452823549,
               "status": "passed"
             },
             "line": 13,
@@ -118,7 +162,7 @@
           },
           {
             "result": {
-              "duration": 11907897648,
+              "duration": 11592646615,
               "status": "passed"
             },
             "line": 14,

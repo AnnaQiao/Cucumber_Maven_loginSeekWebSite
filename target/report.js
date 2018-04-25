@@ -6,6 +6,10 @@ formatter.feature({
   "id": "login",
   "keyword": "Feature"
 });
+formatter.before({
+  "duration": 12484718552,
+  "status": "passed"
+});
 formatter.scenario({
   "line": 3,
   "name": "regist an account of seek",
@@ -38,28 +42,36 @@ formatter.match({
   "location": "loginStepDefinition.user_am_on_seek_register_page()"
 });
 formatter.result({
-  "duration": 16654251154,
+  "duration": 7766043784,
   "status": "passed"
 });
 formatter.match({
   "location": "loginStepDefinition.user_input_username()"
 });
 formatter.result({
-  "duration": 3217686376,
+  "duration": 2011272296,
   "status": "passed"
 });
 formatter.match({
   "location": "loginStepDefinition.user_input_email_password()"
 });
 formatter.result({
-  "duration": 872226380,
+  "duration": 1015355077,
   "status": "passed"
 });
 formatter.match({
   "location": "loginStepDefinition.user_click_register_button()"
 });
 formatter.result({
-  "duration": 12544176295,
+  "duration": 976247149,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 1029706922,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 10106906329,
   "status": "passed"
 });
 formatter.scenario({
@@ -99,35 +111,39 @@ formatter.match({
   "location": "loginStepDefinition.user_am_on_seek_login_page()"
 });
 formatter.result({
-  "duration": 11573167011,
+  "duration": 7107152513,
   "status": "passed"
 });
 formatter.match({
   "location": "loginStepDefinition.user_enter_valid_username()"
 });
 formatter.result({
-  "duration": 2960697151,
+  "duration": 1954105058,
   "status": "passed"
 });
 formatter.match({
   "location": "loginStepDefinition.user_enter_valid_password()"
 });
 formatter.result({
-  "duration": 688251246,
+  "duration": 453952138,
   "status": "passed"
 });
 formatter.match({
   "location": "loginStepDefinition.user_clicks_on_login_button()"
 });
 formatter.result({
-  "duration": 337066735,
+  "duration": 452823549,
   "status": "passed"
 });
 formatter.match({
   "location": "loginStepDefinition.user_is_on_home_page()"
 });
 formatter.result({
-  "duration": 11907897648,
+  "duration": 11592646615,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 1022856097,
   "status": "passed"
 });
 });
