@@ -6,7 +6,25 @@
         "before": [
           {
             "result": {
-              "duration": 12484718552,
+              "duration": 40004671809,
+              "status": "passed"
+            },
+            "match": {
+              "location": "outlineStepDefinition.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 567882,
+              "status": "passed"
+            },
+            "match": {
+              "location": "taggedHooksStepDefiniation.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 9690562630,
               "status": "passed"
             },
             "match": {
@@ -14,14 +32,32 @@
             }
           }
         ],
-        "line": 3,
-        "name": "regist an account of seek",
+        "line": 10,
+        "name": "login functionality for social networking site",
         "description": "",
-        "id": "login;regist-an-account-of-seek",
+        "id": "outline;login-functionality-for-social-networking-site;;2",
         "after": [
           {
             "result": {
-              "duration": 1029706922,
+              "duration": 46824564,
+              "status": "passed"
+            },
+            "match": {
+              "location": "outlineStepDefinition.cleanup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 142348,
+              "status": "passed"
+            },
+            "match": {
+              "location": "taggedHooksStepDefiniation.teardown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1632538639,
               "status": "passed"
             },
             "match": {
@@ -30,53 +66,55 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 7766043784,
+              "duration": 9089589755,
               "status": "passed"
             },
             "line": 4,
-            "name": "user am on seek register page",
+            "name": "user navigates to QQ",
             "match": {
-              "location": "loginStepDefinition.user_am_on_seek_register_page()"
+              "location": "outlineStepDefinition.goTologin()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2011272296,
+              "duration": 1531358284,
               "status": "passed"
             },
             "line": 5,
-            "name": "user input First name and last name",
+            "name": "I enter Username as \"username1\" and Password as \"password1\"",
             "match": {
-              "location": "loginStepDefinition.user_input_username()"
+              "arguments": [
+                {
+                  "val": "username1",
+                  "offset": 21
+                },
+                {
+                  "val": "password1",
+                  "offset": 49
+                }
+              ],
+              "location": "outlineStepDefinition.I_enter_Username_as_and_Password_as(String,String)"
             },
+            "matchedColumns": [
+              0,
+              1
+            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1015355077,
+              "duration": 24240178460,
               "status": "passed"
             },
             "line": 6,
-            "name": "user input Email address and password",
+            "name": "login should be unsuccessful",
             "match": {
-              "location": "loginStepDefinition.user_input_email_password()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 976247149,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user click Register button",
-            "match": {
-              "location": "loginStepDefinition.user_click_register_button()"
+              "location": "outlineStepDefinition.validateRelogin()"
             },
             "keyword": "Then "
           }
@@ -86,7 +124,25 @@
         "before": [
           {
             "result": {
-              "duration": 10106906329,
+              "duration": 34537102799,
+              "status": "passed"
+            },
+            "match": {
+              "location": "outlineStepDefinition.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 240519,
+              "status": "passed"
+            },
+            "match": {
+              "location": "taggedHooksStepDefiniation.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 9999942985,
               "status": "passed"
             },
             "match": {
@@ -94,14 +150,32 @@
             }
           }
         ],
-        "line": 9,
-        "name": "log in seek success",
+        "line": 11,
+        "name": "login functionality for social networking site",
         "description": "",
-        "id": "login;log-in-seek-success",
+        "id": "outline;login-functionality-for-social-networking-site;;3",
         "after": [
           {
             "result": {
-              "duration": 1022856097,
+              "duration": 65407208,
+              "status": "passed"
+            },
+            "match": {
+              "location": "outlineStepDefinition.cleanup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 68342,
+              "status": "passed"
+            },
+            "match": {
+              "location": "taggedHooksStepDefiniation.teardown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1144545145,
               "status": "passed"
             },
             "match": {
@@ -110,75 +184,65 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 7107152513,
+              "duration": 7456821169,
               "status": "passed"
             },
-            "line": 10,
-            "name": "user am on seek login page",
+            "line": 4,
+            "name": "user navigates to QQ",
             "match": {
-              "location": "loginStepDefinition.user_am_on_seek_login_page()"
+              "location": "outlineStepDefinition.goTologin()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1954105058,
+              "duration": 1389053703,
               "status": "passed"
             },
-            "line": 11,
-            "name": "user enter vaild username",
+            "line": 5,
+            "name": "I enter Username as \"username2\" and Password as \"password2\"",
             "match": {
-              "location": "loginStepDefinition.user_enter_valid_username()"
+              "arguments": [
+                {
+                  "val": "username2",
+                  "offset": 21
+                },
+                {
+                  "val": "password2",
+                  "offset": 49
+                }
+              ],
+              "location": "outlineStepDefinition.I_enter_Username_as_and_Password_as(String,String)"
             },
+            "matchedColumns": [
+              0,
+              1
+            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 453952138,
+              "duration": 24390666351,
               "status": "passed"
             },
-            "line": 12,
-            "name": "user enter vaild password",
+            "line": 6,
+            "name": "login should be unsuccessful",
             "match": {
-              "location": "loginStepDefinition.user_enter_valid_password()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 452823549,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "user clicks on login button",
-            "match": {
-              "location": "loginStepDefinition.user_clicks_on_login_button()"
+              "location": "outlineStepDefinition.validateRelogin()"
             },
             "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 11592646615,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "user is on  home page",
-            "match": {
-              "location": "loginStepDefinition.user_is_on_home_page()"
-            },
-            "keyword": "And "
           }
         ]
       }
     ],
-    "name": "login",
+    "name": "outline",
     "description": "",
-    "id": "login",
+    "id": "outline",
     "keyword": "Feature",
-    "uri": "login.feature"
+    "uri": "C:/gitHub/Cucumber_SeekAutomation/src/test/java/Features/Outline.feature"
   }
 ]
