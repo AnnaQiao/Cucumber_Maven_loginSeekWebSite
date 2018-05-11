@@ -6,7 +6,16 @@
         "before": [
           {
             "result": {
-              "duration": 40004671809,
+              "duration": 8705255280,
+              "status": "passed"
+            },
+            "match": {
+              "location": "loginStepDefinition.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 28155781080,
               "status": "passed"
             },
             "match": {
@@ -15,31 +24,40 @@
           },
           {
             "result": {
-              "duration": 567882,
+              "duration": 1189001,
               "status": "passed"
             },
             "match": {
               "location": "taggedHooksStepDefiniation.setup()"
             }
-          },
-          {
-            "result": {
-              "duration": 9690562630,
-              "status": "passed"
-            },
-            "match": {
-              "location": "loginStepDefinition.setup()"
-            }
           }
         ],
-        "line": 10,
-        "name": "login functionality for social networking site",
+        "line": 3,
+        "name": "registration by using dataTable",
         "description": "",
-        "id": "outline;login-functionality-for-social-networking-site;;2",
+        "id": "data-table;;registration-by-using-datatable",
         "after": [
           {
             "result": {
-              "duration": 46824564,
+              "duration": 17368331,
+              "status": "passed"
+            },
+            "match": {
+              "location": "extractTextFromImageUsingSeleniumAndCucumber.cleanup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3623303672,
+              "status": "passed"
+            },
+            "match": {
+              "location": "loginStepDefinition.teardown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 35492578,
               "status": "passed"
             },
             "match": {
@@ -48,201 +66,104 @@
           },
           {
             "result": {
-              "duration": 142348,
+              "duration": 100814,
               "status": "passed"
             },
             "match": {
               "location": "taggedHooksStepDefiniation.teardown()"
             }
-          },
-          {
-            "result": {
-              "duration": 1632538639,
-              "status": "passed"
-            },
-            "match": {
-              "location": "loginStepDefinition.teardown()"
-            }
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 9089589755,
+              "duration": 13159465890,
               "status": "passed"
             },
             "line": 4,
-            "name": "user navigates to QQ",
+            "name": "user is on the new registration page",
             "match": {
-              "location": "outlineStepDefinition.goTologin()"
+              "location": "extractTextFromImageUsingSeleniumAndCucumber.user_is_on_the_new_registration_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1531358284,
+              "duration": 9972266704,
               "status": "passed"
             },
             "line": 5,
-            "name": "I enter Username as \"username1\" and Password as \"password1\"",
+            "name": "user enter invalid data on the page",
             "match": {
-              "arguments": [
-                {
-                  "val": "username1",
-                  "offset": 21
-                },
-                {
-                  "val": "password1",
-                  "offset": 49
-                }
-              ],
-              "location": "outlineStepDefinition.I_enter_Username_as_and_Password_as(String,String)"
+              "location": "extractTextFromImageUsingSeleniumAndCucumber.user_enter_valid_data_on_the_page(DataTable)"
             },
-            "matchedColumns": [
-              0,
-              1
+            "rows": [
+              {
+                "cells": [
+                  "fields",
+                  "values"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "Email address",
+                  "pzlvxq24@163.com"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "First name",
+                  "dudu"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "Last name",
+                  "gu"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "Create password",
+                  "123456"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "Confirm password",
+                  "123456"
+                ],
+                "line": 12
+              }
             ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 24240178460,
+              "duration": 4405873870,
               "status": "passed"
             },
-            "line": 6,
-            "name": "login should be unsuccessful",
+            "line": 14,
+            "name": "user registration should be unsuccess",
             "match": {
-              "location": "outlineStepDefinition.validateRelogin()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 34537102799,
-              "status": "passed"
-            },
-            "match": {
-              "location": "outlineStepDefinition.setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 240519,
-              "status": "passed"
-            },
-            "match": {
-              "location": "taggedHooksStepDefiniation.setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 9999942985,
-              "status": "passed"
-            },
-            "match": {
-              "location": "loginStepDefinition.setup()"
-            }
-          }
-        ],
-        "line": 11,
-        "name": "login functionality for social networking site",
-        "description": "",
-        "id": "outline;login-functionality-for-social-networking-site;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 65407208,
-              "status": "passed"
-            },
-            "match": {
-              "location": "outlineStepDefinition.cleanup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 68342,
-              "status": "passed"
-            },
-            "match": {
-              "location": "taggedHooksStepDefiniation.teardown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 1144545145,
-              "status": "passed"
-            },
-            "match": {
-              "location": "loginStepDefinition.teardown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 7456821169,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "user navigates to QQ",
-            "match": {
-              "location": "outlineStepDefinition.goTologin()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1389053703,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I enter Username as \"username2\" and Password as \"password2\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "username2",
-                  "offset": 21
-                },
-                {
-                  "val": "password2",
-                  "offset": 49
-                }
-              ],
-              "location": "outlineStepDefinition.I_enter_Username_as_and_Password_as(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 24390666351,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "login should be unsuccessful",
-            "match": {
-              "location": "outlineStepDefinition.validateRelogin()"
+              "location": "extractTextFromImageUsingSeleniumAndCucumber.user_registration_should_be_success()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "outline",
+    "name": "data table;",
     "description": "",
-    "id": "outline",
+    "id": "data-table;",
     "keyword": "Feature",
-    "uri": "C:/gitHub/Cucumber_SeekAutomation/src/test/java/Features/Outline.feature"
+    "uri": "C:/gitHub/Cucumber_SeekAutomation/src/test/java/Features/dataTable.feature"
   }
 ]

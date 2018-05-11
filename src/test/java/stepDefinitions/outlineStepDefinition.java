@@ -40,7 +40,7 @@ public class outlineStepDefinition {
 	@Then("^login should be unsuccessful$")
 	
 	public void validateRelogin() throws InterruptedException {
-		// the target position is not fixed, so using for statement fo find out the correct place.
+		// the target position is not fixed, so using for statement to find out the correct place.
 		for (int xOffset = 180; xOffset <= 275; xOffset = xOffset + 5) {
 			driver.switchTo().frame(0);
 			Thread.sleep(10000);
